@@ -18,6 +18,8 @@ function currentLine(line){
   var i = 0
   for (i=0; i < line.length; i++){
     lineArray.push(`${[i+1]}. ${line[i]}`)
+    lineArray.join(", ")
+    lineSentence.push(lineArray)
   };
   return lineSentence.join(", ")
 }

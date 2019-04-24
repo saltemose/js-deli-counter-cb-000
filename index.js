@@ -14,6 +14,7 @@ function nowServing(line){
 
 function currentLine(line){
   var lineArray = []
+  var i = 0
   for (i=0; i < line.length; i++){
     lineArray.push(`The line is currently: ${[i]}: ${line[i]}, `)
   };

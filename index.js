@@ -13,7 +13,7 @@ function nowServing(line){
 }
 
 function currentLine(line){
-  var lineArray = ["The line is currently: "]
+  var lineArray = ["The line is currently:"]
   var i = 0
   for (i=0; i < line.length; i++){
     lineArray.push(`${[i+1]}: ${line[i]}, `)

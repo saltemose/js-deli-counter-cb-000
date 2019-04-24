@@ -13,5 +13,7 @@ function nowServing(line){
 }
 
 function currentLine(line){
-
+  for (i=0; i < line.length; i++){
+    `The line is currently: ${[i]}: ${line[i]}, `
+  }
 }

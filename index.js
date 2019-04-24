@@ -7,7 +7,7 @@ function takeANumber(line, name){
 function nowServing(line){
   while (line.length > 0){
     return `Currently serving ${line[0]}.`
-    line.slice(1)
+    line.slice()
   }
   return "There is nobody waiting to be served!"
 }

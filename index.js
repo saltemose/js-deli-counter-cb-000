@@ -8,7 +8,6 @@ function nowServing(line){
   while (line.length > 0){
     return `Currently serving ${line[0]}.`
     line.shift()
-    line
   }
   return "There is nobody waiting to be served!"
 }

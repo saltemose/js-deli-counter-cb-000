@@ -5,11 +5,13 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
+  if (line.length == 0){
+    return "There is nobody waiting to be served!"
+  }
   while (line.length > 0){
     return `Currently serving ${line[0]}.`
     line.slice()
   }
-  return "There is nobody waiting to be served!"
 }
 
 function currentLine(line){

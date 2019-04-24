@@ -21,5 +21,5 @@ function currentLine(line){
   };
   lineArray.join(", ")
   lineSentence.push(lineArray)
-  return lineSentence.join(" ")
+  return lineSentence.join("")
 }

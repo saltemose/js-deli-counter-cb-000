@@ -19,11 +19,10 @@ function currentLine(line){
   for (i=0; i < line.length; i++){
     if (line.length > 0 ) {
     lineArray.push(` ${[i+1]}. ${line[i]}`)
-  };
-  lineArray.join(", ")
-  lineSentence.push(lineArray)
-  return lineSentence.join("")
-}
+    };
+      lineArray.join(", ")
+      lineSentence.push(lineArray)
+      return lineSentence.join("")
     else {
       return "The line is currently empty."
     }

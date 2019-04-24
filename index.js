@@ -23,7 +23,6 @@ function currentLine(line){
       lineSentence.push(lineArray)
       return lineSentence.join("")
     }
-    else {
       return "The line is currently empty."
     }
   }

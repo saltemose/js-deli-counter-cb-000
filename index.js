@@ -17,5 +17,5 @@ function currentLine(line){
   for (i=0; i < line.length; i++){
     lineArray.push(`The line is currently: ${[i]}: ${line[i]}, `)
   };
-  return lineArray.to_s
+  return lineArray.toString()
 }

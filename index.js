@@ -18,5 +18,5 @@ function currentLine(line){
   for (i=0; i < line.length; i++){
     lineArray.push(`${[i+1]}: ${line[i]}, `)
   };
-  return lineArray.toString(" ")
+  return lineArray.toString("")
 }

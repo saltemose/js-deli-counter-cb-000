@@ -9,4 +9,5 @@ function nowServing(line){
     return line[0]
     line.shift()
   }
+  return "There is nobody waiting to be served!"
 }
